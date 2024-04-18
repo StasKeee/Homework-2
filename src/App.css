@@ -1,0 +1,60 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  vertical-align: middle;
+  display: inline-block;
+  width: 250px;
+  padding: 50px;
+}
+
+.card_container {
+  margin: auto;
+  text-align: center;
+}
+
+
+.card_image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px
+}
+
+.card_image_photo {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no repeat;
+  border-radius: 100%;
+}
+
+.card_content {
+  display: table-cell;
+  width: 250px;
+  vertical-align: middle;
+  height: 200px;
+  padding: 10px 10px 10px 10px;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+}
+
+.card_content_photo {
+  padding: 36px 45px 45px 45px;
+  background-color: #fff;
+  border-radius: 25px 25px 25px 25px;
+}
+
